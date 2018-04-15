@@ -1,0 +1,43 @@
+.topic-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.topic-header {
+  font-size: 2.8rem;
+  text-decoration: underline;
+}
+
+.topic-btn {
+  height: 40px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  line-height: 2;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.topic-btn:hover {
+  background: #444;
+}
+
+.topic-content {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  font-family: "Lato", sans-serif;
+}
+
+.content-header {
+  font-size: 2.4rem;
+  font-weight: bold;
+}

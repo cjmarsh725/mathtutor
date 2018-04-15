@@ -1,0 +1,41 @@
+.Landing-page {
+  height: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.Landing-header {
+  height: 40px;
+}
+
+.Landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.Landing-button {
+  height: 40px;
+  text-decoration: none;
+  color: white;
+  line-height: 2;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.Landing-button:hover {
+  background: #444;
+}
